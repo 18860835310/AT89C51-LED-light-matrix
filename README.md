@@ -144,7 +144,8 @@ void hc595_write_data(u8 dat)
 
 # 移植程序在主函数中的调用
 ```c
-	
+void main()
+{	
 	u8 i=0,j=0,k=0;
 
 	LEDDZ_COL_PORT=0x00;//将LED点阵列全部设置为0，即LED阴极为低电平
